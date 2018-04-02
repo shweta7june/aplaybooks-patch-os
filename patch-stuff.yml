@@ -3,4 +3,4 @@
   tasks:
     - name: Patching Again Centos Linux
       debug:
-        msg: "Patched Centos 7 Linux. Now at: {{ ansible_distribution_version }}
+        msg: "Patched Centos Linux. Now at: {{ ansible_distribution_version }}
