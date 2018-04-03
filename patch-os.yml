@@ -1,6 +1,6 @@
 - name: Patch OS playbook
   hosts: all
   tasks:
-    - name: Patching Red Hat Enterprise Linux
+    - name: Patching Cent Linux
       debug:
-        msg: "Patched CentOS 7 Linux. Now at: {{ ansible_distribution_version }}
+        msg: "Patched Cent Linux. Now at: {{ ansible_distribution_version }}"
