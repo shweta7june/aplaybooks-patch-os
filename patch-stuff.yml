@@ -1,6 +1,6 @@
-- name: Patch OS stuff playbook
+- name: Patch OS Stuff playbook
   hosts: all
   tasks:
-    - name: Patching Again Centos Linux
+    - name: Patching Centos Linux
       debug:
-        msg: "Patched Centos Linux. Now at: {{ ansible_distribution_version }}
+        msg: "Patched CentOS 7 OS Stuff Linux. Now at: {{ ansible_distribution_version }}"
